@@ -1,6 +1,3 @@
-[[https://stately.ai/viz/c68fb382-365f-41cd-a6b8-a379a94189da](https://stately.ai/viz/c68fb382-365f-41cd-a6b8-a379a94189da) / 이벤트 버튼을 클릭해보세요](https://stately.ai/viz/embed/c68fb382-365f-41cd-a6b8-a379a94189da?mode=viz&panel=code&readOnly=1&showOriginalLink=1&controls=0&pan=0&zoom=0)
-
-[https://stately.ai/viz/c68fb382-365f-41cd-a6b8-a379a94189da](https://stately.ai/viz/c68fb382-365f-41cd-a6b8-a379a94189da) / 이벤트 버튼을 클릭해보세요
 
 - 꺼져 있는 기기는 언제든 켤 수 있다.
 - 이미 켜져 있는 기기는 또 켤 수 없다.
