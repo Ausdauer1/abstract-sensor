@@ -4,9 +4,9 @@ class Sensor {
         this.reportingInterval = 10000;
         this.deviceId = deviceId;
     }
-    turn(Switch) {
+    turn(onOff) {
         if (this.powerStatus === 'off') {
-            this.powerStatus = Switch;
+            this.powerStatus = onOff;
             this.status = 'idle';
 
             setTimeout(() => {
@@ -20,15 +20,17 @@ class Sensor {
             setTimeout(() => {
                 this.status = 'idle';
             }, this.reportingInterval + 1500);
-        } else if (this.powerStatus === 'on' && Switch === 'on') {
+        } else if (this.powerStatus === 'on' && onOff === 'on') {
             throw new Error('아이고야 틀렸뿟네 다시 해라잉');
         } else {
-            this.powerStatus = Switch;
+            this.powerStatus = onOff;
         }
     }
 }
 class IotServer {
-    constructor() {}
+    constructor() {
+        this.sensor
+    }
 
     start(newSensor) {
         this.sensor = newSensor;
